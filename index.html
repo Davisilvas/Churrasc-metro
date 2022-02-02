@@ -8,21 +8,19 @@
     <title>Churrascômetro</title>
 </head>
 <body>
-    <script src="./scripts/script.js"></script>
 
     <div class="container">
 
         <h1>Churrascômetro</h1>
-        <input type="number" placeholder="Adultos" id="adultos" name="adultos">
-        <input type="number" placeholder="Crianças" id="crianca" name="criancas">
-        <input type="number" placeholder="Duração" id="duracao" name="duracao  (h)">
-        <button>Calcular</button>
+        <input id="adultos" type="number" placeholder="Adultos" name="adultos">
+        <input id="crianca" type="number" placeholder="Crianças" name="criancas">
+        <input id="duracao" type="number" placeholder="Duração (h)" name="duracao">
+        <button onclick="calcular()">Calcular</button>
 
         <div id="resultado">
-            <p id="Carne"></p>
-            <p id="Cerveja"></p>
-            <p id="bebidas"></p>
+
         </div>
     </div>
+    <script src="./scripts/script.js"></script>    
 </body>
 </html>
